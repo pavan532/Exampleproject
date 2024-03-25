@@ -1,0 +1,26 @@
+package com.nit.jdbc.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "EMPLOYEE_SPRINGBOOT")
+public class Employee {
+
+	@Id
+	private long ID;
+	
+	@Column
+	private String BASELOCATIO;
+	
+	@Column
+	private long EMPLOYEE_ASSIGNDPROJECTS;
+	@Column
+	private String EMPLOYEEEMAIL;
+	@Column
+	private String EMPLOYEENAME;
+	@Column
+	private String EMPLOYEEBASELOCATION;
+}

@@ -1,0 +1,10 @@
+package com.nit.html.entiry;
+
+public class Product {
+
+	private int id;  
+	private String pname;  
+	private String batchno;  
+	private double price;  
+	private int noofproduct; 
+}

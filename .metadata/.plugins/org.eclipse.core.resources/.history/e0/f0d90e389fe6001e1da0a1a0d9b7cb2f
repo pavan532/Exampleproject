@@ -1,0 +1,26 @@
+package com.nit.datajapa.serviceimp;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.nit.datajapa.entity.ProjectSpringboot;
+import com.nit.datajapa.repositary.ProjectRepositary;
+import com.nit.datajapa.service.ProjectService;
+
+public class ProjcetServiceImp implements ProjectService{
+
+	@Autowired
+	private ProjectRepositary projectrepo;
+	
+	@Override
+	public ProjectSpringboot saveproject(ProjectSpringboot project) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ProjectSpringboot getprojectByid(long projectcode) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

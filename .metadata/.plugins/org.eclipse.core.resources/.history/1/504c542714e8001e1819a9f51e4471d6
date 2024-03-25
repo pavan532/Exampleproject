@@ -1,0 +1,12 @@
+package com.nit.datajapa;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.nit.datajap.service.EmployeeService;
+
+@RestController
+public class EmployeeController {
+	
+	private EmployeeService service;
+
+}

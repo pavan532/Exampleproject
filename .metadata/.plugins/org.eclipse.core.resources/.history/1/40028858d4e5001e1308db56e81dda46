@@ -1,0 +1,5 @@
+package com.nit.datajapa.repositary;
+
+public interface UsersRpositary {
+
+}

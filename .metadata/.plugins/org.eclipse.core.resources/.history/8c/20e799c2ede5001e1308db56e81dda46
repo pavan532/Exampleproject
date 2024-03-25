@@ -1,0 +1,5 @@
+package com.nit.datajapa.exception;
+
+public class APIException {
+
+}

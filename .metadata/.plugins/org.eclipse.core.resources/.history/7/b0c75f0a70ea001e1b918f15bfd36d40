@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>HelloWorld this is a spring security FirstApplication</h2>
+<a href="/SpringSecurityFirstApplication/hello">second </a><br>
+<a href="/SpringSecurityFirstApplication/he3">Third </a>
+
+</body>
+</html>

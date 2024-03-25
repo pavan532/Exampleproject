@@ -1,0 +1,7 @@
+<html>
+<body>
+<h2>Hello World!</h2>
+<a href="/SpringsecurityScondApplication/hello">First Application</a>
+<a href="/SpringsecurityScondApplication/your/{Name}">second Application</a>
+</body>
+</html>

@@ -1,0 +1,11 @@
+package com.nit.HashMap;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		FakeStudent fake=new FakeStudent("King");
+		
+		
+	}
+}

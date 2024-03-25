@@ -1,0 +1,22 @@
+package com.nit.jdbc.oracle;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api")
+public class SpringBootJdbcController {
+
+	@Autowired
+	JdbcTemplate jdbc;
+	
+	@GetMapping("/insert")
+	public String index() {
+        jdbc.execute("insert into Employee_Springboot(id,Baselocation,employeeassigndprojects,employeeemail,employeename,employeebaselocation)"
+        		+ "values('Hydrabad',2,'pavan@gmail.com','pavan','AP')");  
+		return "data inserted Successfully";
+	}
+}

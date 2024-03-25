@@ -1,0 +1,8 @@
+package com.nit.HashMap;
+
+public class Student1 {
+
+	private final String name = "";
+	
+	
+}

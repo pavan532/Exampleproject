@@ -1,0 +1,32 @@
+package com.nit.datajapa.serviceimp;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.nit.datajapa.entity.EmployeeSpringboot;
+import com.nit.datajapa.payload.EmployeeDto;
+import com.nit.datajapa.repositary.EmployeeRepositary;
+import com.nit.datajapa.repositary.ProjectRepositary;
+import com.nit.datajapa.service.EmployeeService;
+
+public class EmployeeServiceImp implements EmployeeService{
+
+	@Autowired
+	private EmployeeRepositary emprepo;
+	
+	@Autowired
+	private ProjectRepositary projectrepo;
+	
+	
+	@Override
+	public EmployeeDto saveemployee(EmployeeSpringboot dto) {
+		emprepo.save(dto);
+		return null;
+	}
+
+	@Override
+	public EmployeeDto getEmployeeByid(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

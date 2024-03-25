@@ -1,0 +1,5 @@
+package com.nit.datajap.service;
+
+public class EmployeeService {
+
+}

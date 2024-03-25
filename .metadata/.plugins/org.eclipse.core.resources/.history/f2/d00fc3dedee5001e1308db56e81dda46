@@ -1,0 +1,8 @@
+package com.nit.datajapa.service;
+
+import com.nit.datajapa.payload.TaskDto;
+
+public interface TaskServices {
+
+	public TaskDto SaveTask(int userid,TaskDto taskdto);
+}

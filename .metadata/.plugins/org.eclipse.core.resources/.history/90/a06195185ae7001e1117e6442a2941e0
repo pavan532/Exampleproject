@@ -1,0 +1,20 @@
+package com.nit.datajapa.Serviceimp;
+
+import com.nit.datajapa.Entity.ProjectEntity;
+import com.nit.datajapa.Service.Projectservice;
+
+public class ProjectserviceImp implements Projectservice{
+
+	@Override
+	public ProjectEntity saveproject(ProjectEntity project) {
+		
+		return null;
+	}
+
+	@Override
+	public ProjectEntity getprojectByid(long projectcode) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

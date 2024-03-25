@@ -1,0 +1,8 @@
+package com.nit.datajapa.entity;
+
+public class Employee {
+
+	private String empId;  
+	private String firstName;  
+	private String secondName;
+}

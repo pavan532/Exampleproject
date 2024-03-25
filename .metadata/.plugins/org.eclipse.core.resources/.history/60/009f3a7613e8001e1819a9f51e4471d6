@@ -1,0 +1,14 @@
+package com.nit.datajap.service;
+
+import com.nit.datajapa.entity.Employee;
+
+public class EmployeeService {
+	
+	public Employee creeateEmp() {
+		
+		Employee emp=new Employee();
+		
+		return emp;
+	}
+
+}

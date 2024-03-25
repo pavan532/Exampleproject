@@ -1,0 +1,21 @@
+package com.nit.datajapa.Serviceimp;
+
+import com.nit.datajapa.Entity.EmployeeEntity;
+import com.nit.datajapa.Payload.EmployeeandprojectDto;
+import com.nit.datajapa.Service.Employeservice;
+
+public class EmployeeserviceImp implements Employeservice{
+
+	@Override
+	public EmployeeandprojectDto saveemployee(EmployeeEntity dto) {
+		
+		return null;
+	}
+
+	@Override
+	public EmployeeandprojectDto getEmployeeByid(long id) {
+	
+		return null;
+	}
+
+}

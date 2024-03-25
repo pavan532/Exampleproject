@@ -1,0 +1,17 @@
+package com.nit.HashMap;
+
+import java.util.HashMap;
+
+public class Student {
+
+	public static void main(String[] args) {
+		
+		HashMap<HashCode, String> map=new HashMap<HashCode, String>();
+		
+		map.put(new HashCode("pavan"), "India");
+		
+		System.out.println(map);
+		
+	
+	}
+}

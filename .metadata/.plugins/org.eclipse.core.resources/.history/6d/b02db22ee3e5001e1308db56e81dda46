@@ -1,0 +1,38 @@
+package com.nit.datajapa.serviceimp;
+
+import java.util.List;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.nit.datajapa.entity.Users;
+import com.nit.datajapa.payload.TaskDto;
+import com.nit.datajapa.repositary.UsersRpositary;
+import com.nit.datajapa.service.TaskServices;
+
+@Service
+public class TaskServiceimp implements TaskServices{
+
+	@Autowired
+	private ModelMapper modelmapper;
+
+	@Autowired
+    private UsersRpositary userrepo;
+	
+	@Override
+	public TaskDto SaveTask(int userid, TaskDto taskdto) {
+		Users user=userrepo.findById(userid).get();	
+		
+		return null;
+	}
+
+
+   
+	@Override
+	public List<TaskDto> getAllTasks(int userid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

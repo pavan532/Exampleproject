@@ -1,0 +1,10 @@
+package com.nit.datajapa.service;
+
+import com.nit.datajapa.payload.EmployeeDto;
+
+public interface EmployeeService {
+	
+	public EmployeeDto saveemployee(EmployeeDto dto);
+	public EmployeeDto getEmployeeByid(long id);
+
+}

@@ -1,0 +1,7 @@
+package com.nit.datajapa.serviceimp;
+
+import com.nit.datajapa.service.UsersServices;
+
+public class UsersServiceimp implements UsersServices {
+
+}

@@ -1,0 +1,18 @@
+package com.nit.datajap.service;
+
+import com.nit.datajapa.entity.Employee;
+
+public class EmployeeService {
+	
+	public Employee creeateEmp(String empId, String fname, String sname) {
+		
+		Employee emp=new Employee();
+		
+			emp.setEmpId(empId);
+			emp.setFirstName(sname);
+			emp.setSecondName(sname);
+		
+		return emp;
+	}
+
+}
