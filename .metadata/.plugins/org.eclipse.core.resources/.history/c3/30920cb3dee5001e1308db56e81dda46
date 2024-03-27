@@ -1,5 +1,0 @@
-package com.nit.datajapa.service;
-
-public interface TaskServices {
-
-}

@@ -14,18 +14,33 @@ public class WebSecurityApplication extends WebSecurityConfigurerAdapter {
 		auth.inMemoryAuthentication()
 		.withUser("pavan")
 		.password("{noop}1234")
-		.roles("admin");
+		.roles("admin")
+		.and()
+		.withUser("raju").password("{noop}5632").roles("user");
 	}
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		
 		http.authorizeRequests()
+		.antMatchers("/hello").authenticated()
+		.antMatchers("/hello1").authenticated()
+		.antMatchers("/hello2").permitAll()
+		.and()
+		.formLogin().loginPage("/Customlogin")
+		.and()
+		.httpBasic()
+		.and()
+		.logout();
+		
+		/*
+		 are using any requests hitting browser show in secure page
+		 http.authorizeRequests()
 		.anyRequest()
 		.authenticated()
 		.and()
 		.formLogin()
 		.and()
-		.httpBasic();
+		.httpBasic();*/
 	}
 }

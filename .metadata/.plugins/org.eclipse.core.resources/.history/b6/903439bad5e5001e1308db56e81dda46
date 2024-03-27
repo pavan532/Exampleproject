@@ -1,9 +1,0 @@
-package com.nit.datajapa.repositary;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.nit.datajapa.entity.Task;
-
-public interface TaskRepositary extends JpaRepository<Task, Integer> {
-
-}

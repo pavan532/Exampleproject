@@ -27,13 +27,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="SpringSecurity.SpringsecuritySignupFourthApplication"/>
+			<item value="SpringSecurity.SpringSecurityThrirdApplication"/>
 			<item value="SpringSecurityFirstApplication.SpringsecurityScondApplication"/>
 			<item value="SpringSecurityFirstApplication.SpringSecurityFirstApplication"/>
 		</list>
 		<list key="groupId">
+			<item value="SpringSecurity"/>
 			<item value="SpringSecurityFirstApplication"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringsecuritySignupFourthApplication"/>
+			<item value="SpringSecurityThrirdApplication"/>
 			<item value="SpringsecurityScondApplication"/>
 			<item value="SpringSecurityFirstApplication"/>
 		</list>

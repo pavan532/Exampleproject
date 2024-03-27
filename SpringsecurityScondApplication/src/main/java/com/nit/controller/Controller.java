@@ -16,6 +16,20 @@ public class Controller {
 	}
 	
 	@ResponseBody
+	@GetMapping("/hello1")
+	public String webpage1() {
+		
+		return "Hello1 this is a Spring Security Framework";	
+	}
+	
+	@ResponseBody
+	@GetMapping("/hello2")
+	public String webpage2() {
+		
+		return "Hello2 this is a Spring Security Framework";	
+	}
+	
+	@ResponseBody
 	@GetMapping("/your/{Name}")
 	public String webpage2(@PathVariable(name = "Name") String Name) {
 		

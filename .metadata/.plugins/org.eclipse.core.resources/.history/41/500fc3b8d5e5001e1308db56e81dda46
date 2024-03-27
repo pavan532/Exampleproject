@@ -1,7 +1,0 @@
-package com.nit.datajapa.serviceimp;
-
-import com.nit.datajapa.service.TaskServices;
-
-public class TaskServiceimp implements TaskServices{
-
-}
