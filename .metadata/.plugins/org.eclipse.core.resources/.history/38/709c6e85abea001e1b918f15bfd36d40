@@ -1,5 +1,0 @@
-package com.nit.security;
-
-public class WebSecurityInitializer extends Abs{
-
-}

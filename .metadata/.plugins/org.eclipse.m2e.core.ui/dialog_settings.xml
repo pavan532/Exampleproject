@@ -27,6 +27,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="SpringSecurity.SpringSecurityupdate8thApplication"/>
+			<item value="SpringSecurity.SpringSecurityJdbcConnetionCustom7ThApplication"/>
+			<item value="SpringSecurity.SpringSecurityUserDetalis6thApplication"/>
+			<item value="SpringSecurity.SpringsecurityAcesses5thApplication"/>
 			<item value="SpringSecurity.SpringsecuritySignupFourthApplication"/>
 			<item value="SpringSecurity.SpringSecurityThrirdApplication"/>
 			<item value="SpringSecurityFirstApplication.SpringsecurityScondApplication"/>
@@ -37,6 +41,10 @@
 			<item value="SpringSecurityFirstApplication"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringSecurityupdate8thApplication"/>
+			<item value="SpringSecurityJdbcConnetionCustom7ThApplication"/>
+			<item value="SpringSecurityUserDetalis6thApplication"/>
+			<item value="SpringsecurityAcesses5thApplication"/>
 			<item value="SpringsecuritySignupFourthApplication"/>
 			<item value="SpringSecurityThrirdApplication"/>
 			<item value="SpringsecurityScondApplication"/>

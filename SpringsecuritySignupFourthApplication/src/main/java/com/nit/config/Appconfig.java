@@ -28,7 +28,7 @@ public class Appconfig {
 	}
 	
 	@Bean
-	JdbcTemplate templeate() {
+	public JdbcTemplate templeate() {
 		JdbcTemplate template=new JdbcTemplate(datasource());
 		return template;
 	}

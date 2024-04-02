@@ -1,5 +1,0 @@
-package com.nit.jdbc.oracle;
-
-public class SpringBootJdbcController {
-
-}

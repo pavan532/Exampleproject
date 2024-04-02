@@ -1,5 +1,0 @@
-package com.nit.Aop.Aspect;
-
-public class BankAspect {
-
-}
